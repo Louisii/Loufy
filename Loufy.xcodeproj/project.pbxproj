@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF44B2172BBDCA5E00C581F2 /* LoufyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B2162BBDCA5E00C581F2 /* LoufyApp.swift */; };
+		AF44B2192BBDCA5E00C581F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B2182BBDCA5E00C581F2 /* ContentView.swift */; };
+		AF44B21B2BBDCA5F00C581F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF44B21A2BBDCA5F00C581F2 /* Assets.xcassets */; };
+		AF44B21E2BBDCA5F00C581F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF44B21D2BBDCA5F00C581F2 /* Preview Assets.xcassets */; };
+		AF44B2252BBDCB1000C581F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B2242BBDCB1000C581F2 /* HomeView.swift */; };
+		AF44B2272BBDCBFB00C581F2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B2262BBDCBFB00C581F2 /* Song.swift */; };
+		AF44B2292BBDCEB500C581F2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B2282BBDCEB500C581F2 /* Color.swift */; };
+		AF44B22B2BBDD03B00C581F2 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B22A2BBDD03B00C581F2 /* PlaylistView.swift */; };
+		AF44B22D2BBDE39A00C581F2 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44B22C2BBDE39A00C581F2 /* SongView.swift */; };
+		AFBE1D192BBDFC1900D53E3A /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE1D182BBDFC1900D53E3A /* Playlist.swift */; };
+		AFBE1D1B2BBE339D00D53E3A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE1D1A2BBE339D00D53E3A /* AudioPlayer.swift */; };
+		AFBE1D202BBE39D300D53E3A /* dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE1D1F2BBE39D300D53E3A /* dados.swift */; };
+		AFBE1D2C2BBE432500D53E3A /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE1D2B2BBE432500D53E3A /* PlaylistsView.swift */; };
+		AFE0D3262BC2E5020061D142 /* PinkFloydSheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D31F2BC2E5020061D142 /* PinkFloydSheep.mp3 */; };
+		AFE0D3272BC2E5020061D142 /* PinkFloydDogs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3202BC2E5020061D142 /* PinkFloydDogs.mp3 */; };
+		AFE0D3282BC2E5020061D142 /* PinkFloydPigsOnTheWing1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3212BC2E5020061D142 /* PinkFloydPigsOnTheWing1.mp3 */; };
+		AFE0D3292BC2E5020061D142 /* MacDeMarcoFortheFirstTime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3222BC2E5020061D142 /* MacDeMarcoFortheFirstTime.mp3 */; };
+		AFE0D32A2BC2E5020061D142 /* PinkFloydPigsOnTheWing2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3232BC2E5020061D142 /* PinkFloydPigsOnTheWing2.mp3 */; };
+		AFE0D32B2BC2E5020061D142 /* PinkFloydPigsThreeDifferentOnes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3242BC2E5020061D142 /* PinkFloydPigsThreeDifferentOnes.mp3 */; };
+		AFE0D32C2BC2E5020061D142 /* MacDeMarcoMyKindofWoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFE0D3252BC2E5020061D142 /* MacDeMarcoMyKindofWoman.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF44B2132BBDCA5E00C581F2 /* Loufy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loufy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF44B2162BBDCA5E00C581F2 /* LoufyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoufyApp.swift; sourceTree = "<group>"; };
+		AF44B2182BBDCA5E00C581F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF44B21A2BBDCA5F00C581F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF44B21D2BBDCA5F00C581F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF44B2242BBDCB1000C581F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF44B2262BBDCBFB00C581F2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		AF44B2282BBDCEB500C581F2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AF44B22A2BBDD03B00C581F2 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		AF44B22C2BBDE39A00C581F2 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		AFBE1D182BBDFC1900D53E3A /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		AFBE1D1A2BBE339D00D53E3A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		AFBE1D1F2BBE39D300D53E3A /* dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dados.swift; sourceTree = "<group>"; };
+		AFBE1D2B2BBE432500D53E3A /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		AFE0D31F2BC2E5020061D142 /* PinkFloydSheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkFloydSheep.mp3; sourceTree = "<group>"; };
+		AFE0D3202BC2E5020061D142 /* PinkFloydDogs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkFloydDogs.mp3; sourceTree = "<group>"; };
+		AFE0D3212BC2E5020061D142 /* PinkFloydPigsOnTheWing1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkFloydPigsOnTheWing1.mp3; sourceTree = "<group>"; };
+		AFE0D3222BC2E5020061D142 /* MacDeMarcoFortheFirstTime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MacDeMarcoFortheFirstTime.mp3; sourceTree = "<group>"; };
+		AFE0D3232BC2E5020061D142 /* PinkFloydPigsOnTheWing2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkFloydPigsOnTheWing2.mp3; sourceTree = "<group>"; };
+		AFE0D3242BC2E5020061D142 /* PinkFloydPigsThreeDifferentOnes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkFloydPigsThreeDifferentOnes.mp3; sourceTree = "<group>"; };
+		AFE0D3252BC2E5020061D142 /* MacDeMarcoMyKindofWoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MacDeMarcoMyKindofWoman.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF44B2102BBDCA5E00C581F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF44B20A2BBDCA5E00C581F2 = {
+			isa = PBXGroup;
+			children = (
+				AF44B2152BBDCA5E00C581F2 /* Loufy */,
+				AF44B2142BBDCA5E00C581F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF44B2142BBDCA5E00C581F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF44B2132BBDCA5E00C581F2 /* Loufy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF44B2152BBDCA5E00C581F2 /* Loufy */ = {
+			isa = PBXGroup;
+			children = (
+				AFBE1D1C2BBE34CF00D53E3A /* mp3Songs */,
+				AF44B22F2BBDF29C00C581F2 /* Views */,
+				AF44B21A2BBDCA5F00C581F2 /* Assets.xcassets */,
+				AF44B21C2BBDCA5F00C581F2 /* Preview Content */,
+				AF44B2262BBDCBFB00C581F2 /* Song.swift */,
+				AF44B2282BBDCEB500C581F2 /* Color.swift */,
+				AFBE1D182BBDFC1900D53E3A /* Playlist.swift */,
+				AFBE1D1A2BBE339D00D53E3A /* AudioPlayer.swift */,
+				AFBE1D1F2BBE39D300D53E3A /* dados.swift */,
+			);
+			path = Loufy;
+			sourceTree = "<group>";
+		};
+		AF44B21C2BBDCA5F00C581F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF44B21D2BBDCA5F00C581F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF44B22F2BBDF29C00C581F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF44B2162BBDCA5E00C581F2 /* LoufyApp.swift */,
+				AF44B22A2BBDD03B00C581F2 /* PlaylistView.swift */,
+				AF44B22C2BBDE39A00C581F2 /* SongView.swift */,
+				AF44B2242BBDCB1000C581F2 /* HomeView.swift */,
+				AF44B2182BBDCA5E00C581F2 /* ContentView.swift */,
+				AFBE1D2B2BBE432500D53E3A /* PlaylistsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFBE1D1C2BBE34CF00D53E3A /* mp3Songs */ = {
+			isa = PBXGroup;
+			children = (
+				AFE0D3222BC2E5020061D142 /* MacDeMarcoFortheFirstTime.mp3 */,
+				AFE0D3252BC2E5020061D142 /* MacDeMarcoMyKindofWoman.mp3 */,
+				AFE0D3202BC2E5020061D142 /* PinkFloydDogs.mp3 */,
+				AFE0D3212BC2E5020061D142 /* PinkFloydPigsOnTheWing1.mp3 */,
+				AFE0D3232BC2E5020061D142 /* PinkFloydPigsOnTheWing2.mp3 */,
+				AFE0D3242BC2E5020061D142 /* PinkFloydPigsThreeDifferentOnes.mp3 */,
+				AFE0D31F2BC2E5020061D142 /* PinkFloydSheep.mp3 */,
+			);
+			path = mp3Songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF44B2122BBDCA5E00C581F2 /* Loufy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF44B2212BBDCA5F00C581F2 /* Build configuration list for PBXNativeTarget "Loufy" */;
+			buildPhases = (
+				AF44B20F2BBDCA5E00C581F2 /* Sources */,
+				AF44B2102BBDCA5E00C581F2 /* Frameworks */,
+				AF44B2112BBDCA5E00C581F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loufy;
+			productName = Loufy;
+			productReference = AF44B2132BBDCA5E00C581F2 /* Loufy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF44B20B2BBDCA5E00C581F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AF44B2122BBDCA5E00C581F2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AF44B20E2BBDCA5E00C581F2 /* Build configuration list for PBXProject "Loufy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF44B20A2BBDCA5E00C581F2;
+			productRefGroup = AF44B2142BBDCA5E00C581F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF44B2122BBDCA5E00C581F2 /* Loufy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF44B2112BBDCA5E00C581F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE0D32B2BC2E5020061D142 /* PinkFloydPigsThreeDifferentOnes.mp3 in Resources */,
+				AFE0D3282BC2E5020061D142 /* PinkFloydPigsOnTheWing1.mp3 in Resources */,
+				AFE0D3272BC2E5020061D142 /* PinkFloydDogs.mp3 in Resources */,
+				AFE0D3262BC2E5020061D142 /* PinkFloydSheep.mp3 in Resources */,
+				AFE0D32C2BC2E5020061D142 /* MacDeMarcoMyKindofWoman.mp3 in Resources */,
+				AF44B21E2BBDCA5F00C581F2 /* Preview Assets.xcassets in Resources */,
+				AFE0D3292BC2E5020061D142 /* MacDeMarcoFortheFirstTime.mp3 in Resources */,
+				AFE0D32A2BC2E5020061D142 /* PinkFloydPigsOnTheWing2.mp3 in Resources */,
+				AF44B21B2BBDCA5F00C581F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF44B20F2BBDCA5E00C581F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF44B22B2BBDD03B00C581F2 /* PlaylistView.swift in Sources */,
+				AF44B2272BBDCBFB00C581F2 /* Song.swift in Sources */,
+				AFBE1D1B2BBE339D00D53E3A /* AudioPlayer.swift in Sources */,
+				AFBE1D202BBE39D300D53E3A /* dados.swift in Sources */,
+				AF44B2252BBDCB1000C581F2 /* HomeView.swift in Sources */,
+				AFBE1D2C2BBE432500D53E3A /* PlaylistsView.swift in Sources */,
+				AFBE1D192BBDFC1900D53E3A /* Playlist.swift in Sources */,
+				AF44B22D2BBDE39A00C581F2 /* SongView.swift in Sources */,
+				AF44B2192BBDCA5E00C581F2 /* ContentView.swift in Sources */,
+				AF44B2292BBDCEB500C581F2 /* Color.swift in Sources */,
+				AF44B2172BBDCA5E00C581F2 /* LoufyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF44B21F2BBDCA5F00C581F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF44B2202BBDCA5F00C581F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF44B2222BBDCA5F00C581F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loufy/Preview Content\"";
+				DEVELOPMENT_TEAM = WC3T929Y2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LouisiDalazen.Loufy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF44B2232BBDCA5F00C581F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loufy/Preview Content\"";
+				DEVELOPMENT_TEAM = WC3T929Y2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LouisiDalazen.Loufy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF44B20E2BBDCA5E00C581F2 /* Build configuration list for PBXProject "Loufy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF44B21F2BBDCA5F00C581F2 /* Debug */,
+				AF44B2202BBDCA5F00C581F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF44B2212BBDCA5F00C581F2 /* Build configuration list for PBXNativeTarget "Loufy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF44B2222BBDCA5F00C581F2 /* Debug */,
+				AF44B2232BBDCA5F00C581F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF44B20B2BBDCA5E00C581F2 /* Project object */;
+}
